@@ -1,0 +1,8 @@
+How to get root access:
+1. sudo nano /etc/ssh/sshd_config
+2. PermitRootLogin yes
+3. control + s
+4. control + x
+5. sudo su
+6. passwd root
+7. service sshd restart
